@@ -1,0 +1,184 @@
+@font-face {
+  font-family: Zen;
+  src: url('lightfont.ttf');
+}
+@font-face {
+  font-family: Zenb;
+  src: url('bold.ttf');
+}
+body{
+  background-image: url('Rectangle.png');
+  background-repeat: no-repeat;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color:none; /* Change this to your desired background color */
+  color:none; /* Change this to your desired text color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: 40px;
+}
+
+/* Sign-in button styles */
+.SIGN-IN button {
+  background-color:transparent; /* Change this to your desired button color */
+  color:black; /* Change this to your desired text color */
+  padding: 10px 20px;
+  border: 1.5px solid rgba(33, 33, 33, 1);
+  border-radius: 5px;
+  font-weight:700;
+  cursor: pointer;
+  font-family:zen;
+  width:100px;
+}
+
+
+
+
+.icon {
+  font-family: Zenb;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  margin-right:15px;
+}
+
+.text {
+  font-family: Zen;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 5px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right:10px;
+}
+
+.form-group {
+  font-family: Zen;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.outer-container {
+  width: 400px;
+  height: 460px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.08);
+  margin-right: 30px;
+  margin-left: 450px;
+  margin-top:2px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: medium;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+}
+
+.remember-forget{
+  font-family: Zen;
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink:3px;
+  margin-left:0px;
+  width: 300px;
+  height: 23px;
+  padding-right:2px;
+}
+
+
+button[type="submit"] {
+  width: 300px;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top:5px;
+  font-weight:400px;
+}
+
+.or{
+  font-family: Zen;
+  font-size: 13px;
+  font-weight:700px;
+  width: 15px;
+  height:30px;
+  margin-left:150px;
+  margin-top:2px;
+}
+
+.appimg,
+.gooimg,
+.fbimg {
+  border: 1px solid rgba(238, 238, 238, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 40px;
+  height: 40px;
+  top: 500px;
+  left: 145px;
+  flex-shrink:0;
+  margin-left:50px;
+
+  
+}
+.can{
+  width:380px;
+  height: 64px;
+  margin-top:40px;
+  background: rgba(33, 33, 33, 1);
+}
+
+.copyright
+{
+  font-family: Zen;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+  width: 207px;
+  height: 15px;
+  top: 840px;
+  margin-left: 540px;
+
+}
+
